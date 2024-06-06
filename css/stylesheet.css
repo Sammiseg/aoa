@@ -175,9 +175,12 @@ ul.dashed > li:before {
 }
 
 /* Gallery images for Contest*/
+.contest_name{
+    color: rgba(235, 226, 226, 0.548);
+}
 div.gallery {
     margin: 5px;
-    border: 1px solid rgb(136, 8, 8);
+    border: 1px solid rgba(235, 226, 226, 0.548);
     float: left;
     width: 180px;
   }
