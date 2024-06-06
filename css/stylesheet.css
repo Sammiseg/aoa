@@ -163,9 +163,49 @@ ul.dashed > li:before {
 }
 
 /*contest*/
-
 .contest{
     background-image: url("../image/page.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: center top;
+    color: white;
+    padding: auto;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Gallery images for Contest*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(136, 8, 8);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(255,140,0);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  div.gallery a{
+    color:  rgb(182, 11, 11);
+  }
+  div.gallery a:hover{
+color: rgb(255,140,0);
+  }
+
+/*Horsemen:Death*/
+#death{
+    /* background-image: url(""); */
+    background-color:black;
     background-size: 100% 100%;
     background-repeat: repeat-y;
     background-position: center top;
@@ -173,9 +213,40 @@ ul.dashed > li:before {
     padding: auto;
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
-
+#war{
+    /* background-image: url(""); */
+    background-color: crimson;
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-position: center top;
+    color: white;
+    padding: auto;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#conquest{
+    /* background-image: url(""); */
+    background-color: darkgoldenrod;
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-position: center top;
+    color: white;
+    padding: auto;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#famine{
+    /* background-image: url(""); */
+    background-color:green;
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-position: center top;
+    color: white;
+    padding: auto;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /* bigger devices (example: laptop) */
 /* @media screen and (max-width: 799px) {
 } */
