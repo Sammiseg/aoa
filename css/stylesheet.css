@@ -219,7 +219,7 @@ color: rgb(255,140,0);
 }
 #war{
     /* background-image: url(""); */
-    background-color: crimson;
+    background-color: black;
     background-size: 100% 100%;
     background-repeat: repeat-y;
     background-position: center top;
@@ -230,7 +230,7 @@ color: rgb(255,140,0);
 }
 #conquest{
     /* background-image: url(""); */
-    background-color: darkgoldenrod;
+    background-color: black;
     background-size: 100% 100%;
     background-repeat: repeat-y;
     background-position: center top;
@@ -241,7 +241,7 @@ color: rgb(255,140,0);
 }
 #famine{
     /* background-image: url(""); */
-    background-color:green;
+    background-color: black;
     background-size: 100% 100%;
     background-repeat: repeat-y;
     background-position: center top;
