@@ -284,8 +284,8 @@ color: rgb(255,140,0);
         height: auto;
         background: transparent;
       }
-      p{
-        width: auto;
-        height: auto;
+     p { 
+        transition: width 0.4s ease-in-out;
+        width: 40vw; 
       }
 }
