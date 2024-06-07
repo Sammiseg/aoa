@@ -256,12 +256,18 @@ color: rgb(255,140,0);
 /* bigger devices (example: laptop) */
 @media screen and (max-width: 768px) {
     .block{
-        width: auto;
+        width: 60vw;
     }
     #home{
         background-image: url("../image/page.png");
         background-size: 140% 100%;
-        font-size: 4vw;
+        font-size: 2vw;
+    }
+    h1{
+        font-size: 3vw;
+    }
+    h3, h5{
+        font-size: 2.8vw;
     }
     .welcome{
         margin-top: 20%;
@@ -278,8 +284,8 @@ color: rgb(255,140,0);
         height: auto;
         background: transparent;
       }
-     p { 
+      p { 
         transition: width 0.4s ease-in-out;
-        width: 35vw; 
+        width: 50vw; 
       }
 }
