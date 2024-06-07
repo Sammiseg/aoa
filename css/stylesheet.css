@@ -259,6 +259,11 @@ color: rgb(255,140,0);
 }
 /* bigger devices (example: laptop) */
 @media screen and (max-width: 768px) {
+    body::before {
+        display:block;
+        content: '';
+        height:60px;
+    }
     .block{
         display: block;
         margin: auto;
@@ -268,9 +273,15 @@ color: rgb(255,140,0);
         background-size: 150% 140%;
         font-size: 2vw;
     }
+    .navbar{
+        position: fixed;
+        top:0;
+        width: 100vw;
+        margin-top: -20px;
+        z-index: 3;
+    }
     .title > span{
         color: rgb(246,80,38);
-        font-size: small;
     }
     
     .welcome{
