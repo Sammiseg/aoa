@@ -254,3 +254,26 @@ color: rgb(255,140,0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* bigger devices (example: laptop) */
+@media screen and (max-width: 768px) {
+    #home{
+        background-image: url("../image/page.png");
+        background-size: 140% 100%;
+        font-size: 1vw;
+    }
+    h1{
+        font-size: 2vw;
+    }
+    h3{
+        font-size: 1.5vw;
+    }
+    .welcome{
+        margin-top: 20%;
+    }
+    .title > span{
+        background: linear-gradient(50deg,rgb(255,40,20), rgb(255,140,0) 50%, red);
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 1px black;
+        background-clip: text;
+    }
+}
+
