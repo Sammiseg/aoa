@@ -254,7 +254,7 @@ color: rgb(255,140,0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* bigger devices (example: laptop) */
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     #home{
         background-image: url("../image/page.png");
         background-size: 140% 100%;
@@ -276,4 +276,4 @@ color: rgb(255,140,0);
         background-clip: text;
     }
 }
-
+*/
