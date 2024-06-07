@@ -1,4 +1,4 @@
-let navbarItems =  `<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+let navbarItems =  `<nav class="navbar navbar-expand navbar-dark bg-dark navbar-custom">
 <div class="container-fluid">
   <a class="navbar-brand" href="#"><strong>AoA</strong></a>
 
@@ -47,16 +47,16 @@ let navbarItems =  `<nav class="navbar navbar-expand-lg navbar-dark bg-dark navb
           aria-labelledby="navbarDropdown"
         >
           <li>
-            <a class="dropdown-item" href="#">Death</a>
+            <a class="dropdown-item" href="death.html">Death</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">War</a>
+            <a class="dropdown-item" href="war.html">War</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Conquest</a>
+            <a class="dropdown-item" href="conquest.html">Conquest</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Famine</a>
+            <a class="dropdown-item" href="famine.html">Famine</a>
           </li>
         </ul>
       </li>
