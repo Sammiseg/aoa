@@ -263,6 +263,8 @@ color: rgb(255,140,0);
         background-size: 140% 100%;
         font-size: 1vw;
     }
+    .navbar{
+        width: auto;
     }
     .welcome{
         margin-top: 20%;
