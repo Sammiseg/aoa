@@ -256,7 +256,7 @@ color: rgb(255,140,0);
 /* bigger devices (example: laptop) */
 @media screen and (max-width: 768px) {
     .block{
-        width: 50vw;
+        width: auto;
     }
     #home{
         background-image: url("../image/page.png");
