@@ -261,13 +261,7 @@ color: rgb(255,140,0);
     #home{
         background-image: url("../image/page.png");
         background-size: 140% 100%;
-        font-size: 2vw;
-    }
-    h1{
-        font-size: auto;
-    }
-    h3, h5{
-        font-size: auto;
+        font-size: 4vw;
     }
     .welcome{
         margin-top: 20%;
@@ -286,6 +280,6 @@ color: rgb(255,140,0);
       }
      p { 
         transition: width 0.4s ease-in-out;
-        width: 40vw; 
+        width: 35vw; 
       }
 }
