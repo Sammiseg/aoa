@@ -270,6 +270,7 @@ color: rgb(255,140,0);
     }
     .title > span{
         color: rgb(246,80,38);
+        font-size: small;
     }
     
     .welcome{
@@ -277,6 +278,7 @@ color: rgb(255,140,0);
     }
     .header{
         text-align: center;
+
     }
     
     .header img {
