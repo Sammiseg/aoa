@@ -268,6 +268,9 @@ color: rgb(255,140,0);
         background-size: 150% 140%;
         font-size: 2vw;
     }
+    .title > span{
+        color: rgb(246,80,38);
+    }
     
     .welcome{
         margin-top: 20%;
