@@ -211,7 +211,7 @@ color: rgb(255,140,0);
   }
 
   
-/*Horsemen*/
+/*Horsemen:Death*/
 #death{
     /* background-image: url(""); */
     background-color:black;
@@ -267,7 +267,6 @@ color: rgb(255,140,0);
     .block{
         display: block;
         margin: auto;
-        text-align: center;
     }
     #home{
         background-image: url("../image/page.png");
@@ -302,52 +301,5 @@ color: rgb(255,140,0);
       p { 
         transition: width 0.4s ease-in-out;
         width: 50vw; 
-        text-align: left;
       }
-
-      /*Horsemen*/
-#death{
-    /* background-image: url(""); */
-    background-color:black;
-    background-size: 100% 100%;
-    background-repeat: repeat-y;
-    background-position: center top;
-    color: white;
-    padding: auto;
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#war{
-    /* background-image: url(""); */
-    background-color: black;
-    background-size: 100% 100%;
-    background-repeat: repeat-y;
-    background-position: center top;
-    color: white;
-    padding: auto;
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#conquest{
-    /* background-image: url(""); */
-    background-color: black;
-    background-size: 100% 100%;
-    background-repeat: repeat-y;
-    background-position: center top;
-    color: white;
-    padding: auto;
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#famine{
-    /* background-image: url(""); */
-    background-color: black;
-    background-size: 100% 100%;
-    background-repeat: repeat-y;
-    background-position: center top;
-    color: white;
-    padding: auto;
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 }
