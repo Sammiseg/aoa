@@ -3,129 +3,213 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>AoA Event</title>
+        <title>AoA Server</title>
         <!-- CSS Style on bootstrap-->
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous"/>
         <!------------------------------------------------------------------------->
         <link rel="stylesheet" href="css/stylesheet.css"/>
     </head>
-    <body class="events">
-        <div class="block">
-            <main class="main">
-                <div class="header">
-                    <h1 class="title">
-                        <span>AoA Events</span>
-                        <img src="image/AoA_Logo1.png" alt="logo"/>
-                    </h1>
-                </div>
-                <div class="text">
-                    <h3>
-                        <u>General Information</u>
-                    </h3>
-                    <ul>
-    <li>Horsemen Bosses</li>
-    <p>When any of the Four Horsemen arrive in Age of Apocalypse it signifies a boss
-        has spawned into the server. Depending on which boss spawns at that time will be
-        the color of the boss. See above for reference. Generals & Followers of the
-        horseman may also spawn as bosses. Generals will be Staff Members and Followers
-        will general followers of the horsemen. During this apocalyptic event all dinos
-        will work together to defeat the horseman(s). After the one or multiple Horseman
-        is defeated 1k marks for recent damage causers will be rewarded for their
-        victory and be multiplied by how many bosses their was.</p>
-
-    <ul>
-        <li>Rules for the Horsemen Bosses</li>
-        <ul>
-            <li>
-                <strong>NO STOMP OR GRAB ALLOWED.</strong>
+    <body class="event">
+        <nav
+      class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-custom"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="image/AoA_Logo1.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
-            <p>Do not intentionally attack other players that are not the Horsemen. You will
-                be warned once after that you shall receive a temp ban.</p>
-        </ul>
-    </ul>
-    <hr>
-    <li>
-        Beast
-    </li>
-    <p>The Beast is a low profile boss that spawns randomly. It may be announced or
-        it may not be. It wont go out of its way to attack players. During this type of
-        event, if found and killed Only the player with the killing blow will receive
-        marks.
-        <br>
-            <hr>
-                <br>
-                    When the beast spawns this will be the format:
-                    <br>
-                        Bounty on The Beast<br>
-                            Dinosaur:<br>
-                                Last known Location:<br>
-                                    Reward:</p>
-                                    <hr>
-                                <li>Royal Rumble</li>
-                                <p>
-                                    The Four Horsemen seek blood so in response they have created the AoA Royal
-                                    Rumble!! Prepare yourselves, it is gonna get crazy!! It is a Free-For-All Mosh
-                                    Pit where anything and everything goes as long as it fits in with the theme of
-                                    the Rumble. All themes will be posted in advance of the event. Refreshments and
-                                    TPs before the event will be provided! All you will have to do is type "!rumble"
-                                    in local and you will get TPed to the event!
-                                </p>
-                                <ul>
-                                    <li>
-                                        <u>Rewards are:</u>
-                                    </li>
-                                    <br>
-                                        <ul>
-                                            <li>1st place: 5k marks</li>
-                                            <ul>
-                                                <li>2nd place: 3k marks</li>
-                                                <ul>
-                                                    <li>3rd place: 1k marks</li>
-                                                    <ul>
-                                                        <li>Most kills: 1k marks</li>
-                                                    </ul>
-                                                </ul>
-                                            </ul>
-                                        </ul>
-                                    </ul>
-<hr>
-        <li>Baby Brawlers</li>
-            <ul>
-                <li>All rules and everything from the Royal Rumble applies just smaller! Baby Version! XD</li>
-                <li>use "!tiny" command in game local chat to help out if you wanna participate!</li>
-            </ul>
-            <hr>
-        <li>Blood Moon</li>
-            <p>The Blood Moon will begin to rise and new server rules will be in effect during its duration!
-                <br>
-                <u>Here are the rules:</u></p>
-                <ul>
-                    <li><u><strong>ALL CRIME IS LEGAL FOR AS LONG AS THE EVENT LASTS!!</strong></u></li>
-                        <ul>
-                            <li>Still No Mixpacking.</li>
-                            <li>Remain Decent in Chat.</li>
-                            <li>There is <strong>NO</strong> 50% Hunger Rule.</li>
-                            <li>Hunting for Sport is Allowed.</li>
-                            <li>Herbivore's can initiate fights.</li>
-                            <li> Remain Decent in Chat.</li>
-                            <li>Stay Out of Faction Tiles if you don't belong to them.</li>
-                        </ul>
-                </ul>
-</div>
-</div>
+            <li class="nav-item">
+              <a class="nav-link" href="rules.html">Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="factions.html">Factions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contest.html">Contest</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Horsemen
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item" href="death.html">Death</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="war.html">War</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="conquest.html"
+                    >Conquest</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="famine.html"
+                    >Famine</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://discord.gg/ageofapocalypse"
+                target="”_blank”"
+                >Discord</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <div class="container ">
+            <h1 class="title event-pad">
+                <span>AoA events</span>
+            </h1>
+            <h3>
+                <u>General Information</u>
+            </h3>
 
-</div>
-<script src="src/script.js"></script>
-<!---------------bootstrap js/poppy bundle--------------------------------->
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-crossorigin="anonymous"></script>
-<!------------------------------------------------------------------------->
-</div>
-</body>
+            <ul>
+                <li>Horsemen Bosses
+                    <p>When any of the Four Horsemen arrive in Age of Apocalypse it signifies a boss
+                        has spawned into the server. Depending on which boss spawns at that time will be
+                        the color of the boss. See above for reference. Generals & Followers of the
+                        horseman may also spawn as bosses. Generals will be Staff Members and Followers
+                        will general followers of the horsemen. During this apocalyptic event all dinos
+                        will work together to defeat the horseman(s). After the one or multiple Horseman
+                        is defeated 1k marks for recent damage causers will be rewarded for their
+                        victory and be multiplied by how many bosses their was.</p>
+                    <ul>
+                        <li>
+                            <strong>NO STOMP OR GRAB ALLOWED.</strong>
+                        </li>
+                        <li>Do not intentionally attack other players that are not the Horsemen. You
+                            will be warned once after that you shall receive a temp ban.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Beast
+                    <p>The Beast is a low profile boss that spawns randomly. It may be announced or
+                        it may not be. It wont go out of its way to attack players. During this type of
+                        event, if found and killed Only the player with the killing blow will receive
+                        marks.
+                        <br>
+                        <hr>
+                        <br>
+                        When the beast spawns this will be the format:
+                        <br>
+                        Bounty on The Beast<br>
+                        Dinosaur: <img src="contest/Troublemaker9141_nature1.jpg" class="image-fluid image-thumbnail img" id="rule-img" alt="Dino's"><br>
+                        Last known Location:<br>
+                        Reward:</p>
+                    <hr></li>
+
+                <li>Royal Rumble
+                    <p>
+                        The Four Horsemen seek blood so in response they have created the AoA Royal
+                        Rumble!! Prepare yourselves, it is gonna get crazy!! It is a Free-For-All Mosh
+                        Pit where anything and everything goes as long as it fits in with the theme of
+                        the Rumble. All themes will be posted in advance of the event. Refreshments and
+                        TPs before the event will be provided! All you will have to do is type "!rumble"
+                        in local and you will get TPed to the event!
+                    </p>
+                    <br>
+                    <ul>
+                        <li>
+                            <u>Rewards are:</u>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>1st place: 5k marks <img src="contest/Troublemaker9141_nature1.jpg" class="image-fluid image-thumbnail img" id="rule-img" alt="Dino's"></li>
+                                <li>2nd place: 3k marks</li>
+                                <li>3rd place: 1k marks</li>
+                                <li>Most kills: 1k marks</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <hr>
+                </li>
+                <li>Baby Brawlers
+                    <ul>
+                        <li>All rules and everything from the Royal Rumble applies just smaller! Baby
+                            Version! XD</li>
+                        <li>use "!tiny" command in game local chat to help out if you wanna participate!</li>
+                    </ul>
+                    <hr>
+                </li>
+                <li>
+                    Blood Moon
+                    <p>The Blood Moon will begin to rise and new server rules will be in effect
+                        during its duration!
+                        <br>
+                        <u>Here are the rules:</u>
+                    </p>
+                    <br>
+                    <ul>
+                        <li>
+                            <u>
+                                <strong>ALL CRIME IS LEGAL FOR AS LONG AS THE EVENT LASTS!!</strong>
+                            </u>
+                            <img src="contest/Troublemaker9141_nature1.jpg" class="image-fluid image-thumbnail img" id="rule-img" alt="Dino's">
+                        </li>
+                        <li>
+                            <ul>
+                                <li>Still No Mixpacking.</li>
+                                <li>Remain Decent in Chat.</li>
+                                <li>There is
+                                    <strong>NO</strong>
+                                    50% Hunger Rule.</li>
+                                <li>Hunting for Sport is Allowed.</li>
+                                <li>Herbivore's can initiate fights.</li>
+                                <li>
+                                    Remain Decent in Chat.</li>
+                                <li>Stay Out of Faction Tiles if you don't belong to them.</li>
+                            </ul><br>
+                                <li>All Growth/Mark Death Penalties will be turned off.</li>
+                                <li>Waystone Cooldown’s will be turned down to 30 seconds.</li>
+                                <li>There will be no revenge kill timer during the event!</li>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
