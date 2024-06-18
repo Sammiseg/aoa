@@ -3,159 +3,167 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>AoA Event</title>
+        <title>AoA Server</title>
         <!-- CSS Style on bootstrap-->
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"/>
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous">
         <!------------------------------------------------------------------------->
         <link rel="stylesheet" href="css/stylesheet.css"/>
     </head>
-    <body class="contest box">
-        <div class="block">
-            <main class="main">
-                <div class="header">
-                    <h1 class="title">
-                        <span>AoA Contests</span>
-                        <img src="image/AoA_Logo1.png" alt="logo"/>
-                    </h1>
+    <body class="rule">
+        <nav
+      class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-custom"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="image/AoA_Logo1.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rules.html">Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="factions.html">Factions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contest.html">Contest</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Horsemen
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item" href="death.html">Death</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="war.html">War</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="conquest.html"
+                    >Conquest</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="famine.html"
+                    >Famine</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://discord.gg/ageofapocalypse"
+                target="”_blank”"
+                >Discord</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <div class="container">
+            <h1 class="title contest-pad">
+                <span>AoA Contest Participants</span>
+            </h1>
+            <h3>Photo Shoot</h3>
+
+            <h5 class="contestant-name">DemandingRage's Photos</h5>
+        </div>
+        <div class="album py-5">
+            <div class="container">
+                <!-- ------------------------------------------------------ -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm contest-image">
+                            <img src="contest/DemandingRage_Horsemen1.png" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">DemandingRage's Horsemen Photo. Represending Conquest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm contest-image">
+                            <img src="contest/DemandingRage_Horsemen1.png" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">DemandingRage's Horsemen Photo. Represending Conquest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm contest-image">
+                            <img src="contest/DemandingRage_Horsemen1.png" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">DemandingRage's Horsemen Photo. Represending Conquest</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="text ">
-                    <!-- shout out to trad -->
-                    <h3 class="contest_name">Photo Shoot Contest</h3>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/DemandingRage_Horsemen1.png">
-                            <img
-                                src="contest_image/DemandingRage_Horsemen1.png"
-                                alt="horsemen"
-                                width="600"
-                                height="400">
-                            <div class="desc">Horsemen Photo by: DemandingRage</div>
-                        </a>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm contest-image">
+                            <img src="contest/DemandingRage_Horsemen1.png" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">DemandingRage's Horsemen Photo. Represending Conquest</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/DemandingRage_Nature1.png">
-                            <img
-                                src="contest_image/DemandingRage_Nature1.png"
-                                alt="horsemen"
-                                width="600"
-                                height="400">
-                            <div class="desc">Nature Photo by: DemandingRage</div>
-                        </a>
+                    <div class="col">
+                        <div class="card shadow-sm contest-image">
+                            <img src="contest/DemandingRage_Horsemen1.png" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">DemandingRage's Horsemen Photo. Represending Conquest</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/DemandingRage_Nature2.png">
-                            <img
-                                src="contest_image/DemandingRage_Nature2.png"
-                                alt="horsemen"
-                                width="600"
-                                height="400">
-                            <div class="desc">Nature Photo by: DemandingRage</div>
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/DemandingRage_Nature3.png">
-                            <img
-                                src="contest_image/DemandingRage_Nature3.png"
-                                alt="horsemen"
-                                width="600"
-                                height="400">
-                            <div class="desc">Nature Photo by: DemandingRage</div>
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/SeagullFripper_nature1.png">
-                            <img
-                                src="contest_image/SeagullFripper_nature1.png"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="400">
-                            <div class="desc">Nature Photo by: SeagullFripper</div>
-                        </a>
-                    </div>
-                    <div class="gallery smaller">
-                        <a target="_blank" href="contest_image/SeagullFripper_nature2.png">
-                            <img class="small"
-                                src="contest_image/SeagullFripper_nature2.png"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="400">
-                            <div class="desc">Nature Photo by: SeagullFripper</div>
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/SeagullFripper_nature3.png">
-                            <img
-                                src="contest_image/SeagullFripper_nature3.png"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="400">
-                            <div class="desc">Nature Photo by: SeagullFripper</div>
-                        </a>
-                    </div>
-                    <div class="gallery larger">
-                        <a target="_blank" href="contest_image/SeagullFripper_Misc1.png">
-                            <img class="large"
-                                src="contest_image/SeagullFripper_Misc1.png"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="500">
-                            <div class="desc">Misc. Photo by: SeagullFripper</div>
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/SeagullFripper_Misc2.png">
-                            <img
-                                src="contest_image/SeagullFripper_Misc2.png"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="400">
-                            <div class="desc">Misc. Photo by: SeagullFripper</div>
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/SeagullFripper_Misc3.png">
-                            <img
-                                src="contest_image/SeagullFripper_Misc3.png"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="400">
-                            <div class="desc">Misc. Photo by: SeagullFripper</div>
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/SeagullFripper_horsemen1.png">
-                            <img
-                                src="contest_image/SeagullFripper_horsemen1.png"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="400">
-                            <div class="desc">Misc. Photo by: SeagullFripper</div>
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a target="_blank" href="contest_image/Troublemaker9141_nature1.jpg">
-                            <img
-                                src="contest_image/Troublemaker9141_nature1.jpg"
-                                alt="Dino Nature photo"
-                                width="600"
-                                height="400">
-                            <div class="desc">Nature Photo by: Troublemaker9141 </div>
-                        </a>
+                    <div class="col">
+                        <div class="card shadow-sm contest-image">
+                            <img src="contest/DemandingRage_Horsemen1.png" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">DemandingRage's Horsemen Photo. Represending Conquest</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <script src="src/script.js"></script>
-                <!---------------bootstrap js/poppy bundle--------------------------------->
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                    crossorigin="anonymous"></script>
-                <!------------------------------------------------------------------------->
-            </main>
+            </div>
         </div>
-    </body>
-</html>
+        <!-- ------------------------------------------------------ -->
+    </div>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
 </html>
