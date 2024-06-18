@@ -6,160 +6,188 @@
         <title>AoA Server</title>
         <!-- CSS Style on bootstrap-->
         <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-            crossorigin="anonymous">
-
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"/>
         <!------------------------------------------------------------------------->
+
         <link rel="stylesheet" href="css/stylesheet.css"/>
     </head>
-    <body id="home" class="img-fluid">
-        <!----------------------------------------------------------------------------->
-        <div class="block container-sm">
-            <main class="main container-fluid">
-                <div class="header">
-                    <div class="row justify-content-center">
-                        <div class="col-xs-2">
-                            <h1 class="title">
-                                <span class="aoa">Age of Apocalypse</span>
-                                <img src="image/AoA_Logo1.png" alt="logo"/>
-                            </h1>
-                        </div>
-                    </div>
-                    <p class="welcome">
-                        Welcome! We are happy you stopped by to see our lovely website. Do you enjoy a
-                        scary theme? Do you love some rules, do you not like mix packing of diets? How
-                        about a friendly group of people wanting to help you out when they can? Then
-                        this server is for you! Let me introduce you to the owners and staff hmm?
-                    </p>
-                    <div class="row">
-
-                        <div class="col-xs-3">
-                            <ul>
-                                <h3>Owners</h3>
+    <body class="page">
+        <nav
+            class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="image/AoA_Logo1.png" alt="logo"/></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rules.html">Rules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="event.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="factions.html">Factions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contest.html">Contest</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Horsemen
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
                                 <li>
-                                    <span class="name">Helios</span>
-                                    <p>
-                                        Ive been gaming since i can remember, been a staff on many different servers and
-                                        games and an owner on three. Im 25 years old and a Corrections Officer. What
-                                        makes being a staff worth it to me is being able to bring joy to the players and
-                                        create a space where people can let loose and have fun and escape their everyday
-                                        lives.
-                                    </p>
+                                    <a class="dropdown-item" href="death.html">Death</a>
                                 </li>
                                 <li>
-                                    <h5 class="war">
-                                        <span class="name">ChickenNdlSoup</span>
-                                        <span class="horse">War</span>
-                                    </h5>
-                                    <p>
-                                        I’ve been gaming since I was very little. I’m 25 years old. I work as a Beer
-                                        Vendor because hey someone’s gotta keep everyone drunk 😆. What I love most
-                                        about being part of the staff is to be able to make a space for everyone to have
-                                        fun and just enjoy this game we all love to play!
-                                    </p>
+                                    <a class="dropdown-item" href="war.html">War</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item disabled" href="conquest.html">Conquest</a >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item disabled" href="famine.html">Famine</a >
                                 </li>
                             </ul>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-xs-3">
-                                <h3>Staff</h3>
-
-                                <ul>
-                                    <li>
-                                        <h5 class="con">
-                                            <span class="name">GeneralSnowOwl</span>
-                                            <span class="horse">Conquest</span>
-                                        </h5>
-                                    </li>
-                                    <p>
-                                        About me: This is an ancient picture since I guess I don't take selfies without
-                                        my husband for whatever reason. I'm just your socially awkward, herbie main who
-                                        loves duckin around. I have a husband and 4 pups which you will see often, sorry
-                                        not sorry. I'm looking forward to providing an environment where people feel
-                                        heard and respected💜
-                                    </p>
-
-                                    <!-- keep fam's profile everyone else is fillers -->
-                                    <li>
-                                        <h5 class="fam">
-                                            <span class="name">AngelHasFallen</span>
-                                            <span class="horse">Famine</span>
-                                        </h5>
-                                    </li>
-                                    <p>
-                                        Hey y’all I’m Angel - Famine, on AoA you’ll almost always find me just hanging
-                                        around or raising some babies 💚 I swap a lot between Carni or Herbi, so if you
-                                        ever want someone to quest/grow off of I’m always willing help out! IRL you’ll
-                                        find me on horseback or on the lake in the summer, or bundled up with a book and
-                                        my dogs in the winter. I’ve worked in the medical field for several years now,
-                                        and I like to stay pretty busy in general. If you ever have any questions or
-                                        need some help with anything feel free to reach out!
-                                        <!---------------------------------------------------------------------------->
-                                    </p>
-                                    <li>
-                                        <!--Freebirds is done-->
-                                        <h5 class="death">
-                                            <span class="name">Freebird</span>
-                                            <span class="horse">Death</span>
-                                        </h5>
-                                    </li>
-                                    <p>
-                                        Hey there everyone names FreeBird. I'm Death over at AoA and will exclusively
-                                        find me over there. I play all types of dinos depending on what the pop is at
-                                        the time as well as what my friends want to play. I love playing video games and
-                                        just hanging out with others while we all play other games or the same game.
-                                        Just getting into D&D as well as anime, so far my favorite show is Demon Slayer.
-                                        <br>
-                                        I am always open to DM's for any questions so feel free to reach out at anytime.
-                                        💜
-                                    </p>
-
-                                    <li>Puppysaurus</li>
-                                    <p>
-                                        80-100 words per minute typing speed, there is no escape from my reminders to
-                                        stretch, drink water, and be kind to yourself and others. Helping people and the
-                                        environment are my biggest joys in life. If you're smiling, I am too. I promise
-                                        to do my best as a mod!
-                                    </p>
-
-                                    <li>Kenketsu Undo</li>
-                                    <p>
-                                        Hello! I am Kenketsu, but many people simply call me Ken. I'm one of AOA's mods
-                                        and I generally play herbivores, but you might occassionally see me sporting
-                                        some teeth every once in a while! I'm quite the busy body, but my love for all
-                                        things fantasy and science means I'll probably be able to chime in on any
-                                        subject if you ask!
-                                        <br>
-                                        <br>
-                                        For questions or just general conversation, I am a Discord message away!
-                                    </p>
-
-                                    <li>PhoenixFire-ENS</li>
-                                    <p>
-                                        Hello, Phoenix is whateveryone calls me or Choas Aussie. I love playing the
-                                        Aussie, I just graduated from College and I am proud to be part of the staff.
-                                        Part of HL faction I am usually with sharp teeth, but I am sometimes on herbi.
-                                        <br>
-                                        If you have any questions or concerns lmk I'm always happy to help.
-                                    </p>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </main>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://discord.gg/ageofapocalypse" target="”_blank”">Discord</a >
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <div class="welcome container-fluid box"></div>
+        <div class="container background">
+            <h1 class="title">
+                <span>Age of Apocalypse</span>
+            </h1>
+            <div class="index-main text-wrap text-left">
+                <p>
+                    Welcome! We are happy you stopped by to see our lovely website. Do you enjoy a
+                    scary theme? Do you love rules, do you not like mix packing of diets? How about
+                    a friendly group of people wanting to help you out when they can? Then this
+                    server is for you! Let me introduce you to the owners and staff hmm?
+                </p><hr>
+                <h3 class="container-fluid ">Owner</h3>
+                <hr/>
+                <br/>
+                <h5 class="text-center">Helios</h5>
+                <p>
+                    Ive been gaming since i can remember, been a staff on many different servers and
+                    games and an owner on three. Im 25 years old and a Corrections Officer. What
+                    makes being a staff worth it to me is being able to bring joy to the players and
+                    create a space where people can let loose and have fun and escape their everyday
+                    lives.
+                </p>
 
-            <!-------------------------------end Main---------------------------------->
+                <h5 class="war text-center">
+                    <span class="name">ChickenNdlSoup</span>
+                    <span class="horse">War</span>
+                </h5>
+                <p>
+                    I’ve been gaming since I was very little. I’m 25 years old. I work as a Beer
+                    Vendor because hey someone’s gotta keep everyone drunk 😆. What I love most
+                    about being part of the staff is to be able to make a space for everyone to have
+                    fun and just enjoy this game we all love to play!
+                </p>
+                <hr>
+                <h3>Staff</h3>
+                <hr/>
+                <br/>
 
-            <!------------------------------------------------------------------------->
-            <script src="src/script.js"></script>
-            <!---------------bootstrap js/poppy bundle--------------------------------->
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                crossorigin="anonymous"></script>
-            <!------------------------------------------------------------------------->
-        </body>
-    </html>
+                <h5 class="con text-center">
+                    <span class="name">GeneralSnowOwl</span>
+                    <span class="horse">Conquest</span>
+                </h5>
+                <p>
+                    About me: I'm just your socially awkward, herbie main who loves duckin around. I
+                    have a husband and 4 pups which you will see pictures of often. I can often be
+                    found around Triad or the surrounding area since my dinos have called that home
+                    for a while now. I'm a big fan of ceratopsians, hadrosaurs and the duck. I'm
+                    looking forward to providing an environment where people feel heard and
+                    respected💜 <br> DM's are open as long as you remain respectful in there.
+                </p>
+
+                <h5 class="fam text-center">
+                    <span class="name">AngelHasFallen</span>
+                    <span class="horse">Famine</span>
+                </h5>
+                <p>
+                    Hey y’all I’m Angel - Famine, on AoA you’ll almost always find me just hanging
+                    around or raising some babies 💚 I swap a lot between Carni or Herbi, so if you
+                    ever want someone to quest/grow off of I’m always willing help out! IRL you’ll
+                    find me on horseback or on the lake in the summer, or bundled up with a book and
+                    my dogs in the winter. I’ve worked in the medical field for several years now,
+                    and I like to stay pretty busy in general. If you ever have any questions or
+                    need some help with anything feel free to reach out!
+                </p>
+                <h5 class="death text-center">
+                    <span class="name">Freebird</span>
+                    <span class="horse">Death</span>
+                </h5>
+                <p>
+                    Hey there everyone names FreeBird. I'm Death over at AoA and will exclusively
+                    find me over there. I play all types of dinos depending on what the pop is at
+                    the time as well as what my friends want to play. I love playing video games and
+                    just hanging out with others while we all play other games or the same game.
+                    Just getting into D&D as well as anime, so far my favorite show is Demon Slayer.
+                    <br/>
+                    I am always open to DM's for any questions so feel free to reach out at anytime.
+                    💜
+                </p>
+
+                <h5 class="text-center">Puppysaurus</h5>
+                <p>
+                    80-100 words per minute typing speed, there is no escape from my reminders to
+                    stretch, drink water, and be kind to yourself and others. Helping people and the
+                    environment are my biggest joys in life. If you're smiling, I am too. I promise
+                    to do my best as a mod!
+                </p>
+                <h5 class="text-center">Kenketsu Undo</h5>
+                <p>
+                    Hello! I am Kenketsu, but many people simply call me Ken. I'm one of AOA's mods
+                    and I generally play herbivores, but you might occassionally see me sporting
+                    some teeth every once in a while! I'm quite the busy body, but my love for all
+                    things fantasy and science means I'll probably be able to chime in on any
+                    subject if you ask!
+                    <br/>
+                    <br/>
+                    For questions or just general conversation, I am a Discord message away!
+                </p>
+                <h5 class="text-center">PhoenixFire-ENS</h5>
+                <p>
+                    Hello, Phoenix is whateveryone calls me or Chaos Aussie. I love playing the
+                    Aussie, I just graduated from College and I am proud to be part of the staff.
+                    Part of HL faction I am usually with sharp teeth, but I am sometimes on herbi.
+                    <br/>
+                    If you have any questions or concerns lmk I'm always happy to help.
+                </p>
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
